@@ -21,7 +21,7 @@ with open('mahasiswa.json','r') as datafile:
         print()
 
 
-        kosong[nama] = [{'Biodata' : {'Hobi' : hobi, 'Prestasi' : prestasi}}]
+        kosong[nama] = [{'Biodata' : {'Hobi' : list_hobi, 'Prestasi' : prestasi}}]
     
     data.update(kosong)
     
