@@ -101,7 +101,8 @@ class SLNC:
             bantu = bantu.next
             print(f'Rekening yang berhasil di hapus sebanyak : {jumlah} buah')
 
-    # def update(self,ubah):
+    def update(self,ubah):
+        return True
 
         
 
@@ -110,7 +111,8 @@ slnc.insert_head(201,"Hanif", 250000)
 slnc.insert_head(110,"Yudha", 150000) 
 slnc.print()
 slnc.filter(100)
-# slnc.update(200)
-# slnc.update(50)
-# slnc.print()
+slnc.print()
+slnc.update(200)
+slnc.update(50)
+slnc.print()
         
